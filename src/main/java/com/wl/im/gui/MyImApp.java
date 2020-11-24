@@ -21,7 +21,7 @@ public class MyImApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         BorderPane root = new BorderPane();
-        Scene scene = new Scene(root, 400, 400);
+        Scene scene = new Scene(root, 500, 500);
         scene.getStylesheets().add(getClass().getResource("/MyImApp.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.show();
